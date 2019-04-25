@@ -1,0 +1,16 @@
+Execute following commands in three diff. terminals
+1) ganache-cli
+2) truffle install --network=develop
+3) npm run start
+
+Open browser http://localhost:3000/
+
+1) Click on signup. 
+2) Create account as regulator
+3) Once singup, you can logged in using smart contract
+4) Now the Car link is visible in the menu
+5) CLick Car, It will redirect to page "Create Car"
+6) Once input the imp. details, It will create a contract for that car
+
+
+

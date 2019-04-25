@@ -39,15 +39,15 @@
       "signature": "0xf2fde38b"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.4.24+commit.e67f0147\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/sumit/projects/carlease/contracts/zeppelin/ownership/Ownable.sol\":\"Ownable\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/sumit/projects/carlease/contracts/zeppelin/ownership/Ownable.sol\":{\"keccak256\":\"0x8ee090881ca05760f9e23337d61278a50fb94208c8fa5dcc569b89df341c0b2c\",\"urls\":[\"bzzr://78b0e634d572fd3660daccb8153befa9c982f36515b2709abef600768c24c289\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555061020c806100606000396000f30060806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680638da5cb5b14610051578063f2fde38b146100a8575b600080fd5b34801561005d57600080fd5b506100666100eb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100b457600080fd5b506100e9600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610110565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156101dd57600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415156101dc57806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b5b505600a165627a7a7230582059f5cee891d8c64de9ad63fc3b9215bcf0ce662eb04209349e02fd653eb875440029",
-  "deployedBytecode": "0x60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680638da5cb5b14610051578063f2fde38b146100a8575b600080fd5b34801561005d57600080fd5b506100666100eb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100b457600080fd5b506100e9600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610110565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156101dd57600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415156101dc57806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b5b505600a165627a7a7230582059f5cee891d8c64de9ad63fc3b9215bcf0ce662eb04209349e02fd653eb875440029",
+  "metadata": "{\"compiler\":{\"version\":\"0.4.24+commit.e67f0147\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/sumit/projects/tempcarlease/carlease/contracts/zeppelin/ownership/Ownable.sol\":\"Ownable\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/sumit/projects/tempcarlease/carlease/contracts/zeppelin/ownership/Ownable.sol\":{\"keccak256\":\"0x8ee090881ca05760f9e23337d61278a50fb94208c8fa5dcc569b89df341c0b2c\",\"urls\":[\"bzzr://78b0e634d572fd3660daccb8153befa9c982f36515b2709abef600768c24c289\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555061020c806100606000396000f30060806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680638da5cb5b14610051578063f2fde38b146100a8575b600080fd5b34801561005d57600080fd5b506100666100eb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100b457600080fd5b506100e9600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610110565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156101dd57600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415156101dc57806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b5b505600a165627a7a72305820c7ba40f8f98e1a7c7786d1fad59af4156e18af83a3538f07b626f819c17da3ec0029",
+  "deployedBytecode": "0x60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680638da5cb5b14610051578063f2fde38b146100a8575b600080fd5b34801561005d57600080fd5b506100666100eb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100b457600080fd5b506100e9600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610110565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156101dd57600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415156101dc57806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b5b505600a165627a7a72305820c7ba40f8f98e1a7c7786d1fad59af4156e18af83a3538f07b626f819c17da3ec0029",
   "sourceMap": "196:279:4:-;;;242:48;8:9:-1;5:2;;;30:1;27;20:12;5:2;242:48:4;275:10;267:5;;:18;;;;;;;;;;;;;;;;;;196:279;;;;;;",
   "deployedSourceMap": "196:279:4:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;217:20;;8:9:-1;5:2;;;30:1;27;20:12;5:2;217:20:4;;;;;;;;;;;;;;;;;;;;;;;;;;;362:110;;8:9:-1;5:2;;;30:1;27;20:12;5:2;362:110:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;217:20;;;;;;;;;;;;;:::o;362:110::-;339:5;;;;;;;;;;;325:19;;:10;:19;;;321:32;;;447:1;427:22;;:8;:22;;;;423:44;;;459:8;451:5;;:16;;;;;;;;;;;;;;;;;;423:44;321:32;362:110;:::o",
   "source": "pragma solidity ^0.4.4;\n\n\n/*\n * Ownable\n *\n * Base contract with an owner.\n * Provides onlyOwner modifier, which prevents function from running if it is called by anyone other than the owner.\n */\ncontract Ownable {\n  address public owner;\n\n  function Ownable() {\n    owner = msg.sender;\n  }\n\n  modifier onlyOwner() {\n    if (msg.sender == owner)\n      _;\n  }\n\n  function transferOwnership(address newOwner) onlyOwner {\n    if (newOwner != address(0)) owner = newOwner;\n  }\n\n}\n",
-  "sourcePath": "/home/sumit/projects/carlease/contracts/zeppelin/ownership/Ownable.sol",
+  "sourcePath": "/home/sumit/projects/tempcarlease/carlease/contracts/zeppelin/ownership/Ownable.sol",
   "ast": {
-    "absolutePath": "/home/sumit/projects/carlease/contracts/zeppelin/ownership/Ownable.sol",
+    "absolutePath": "/home/sumit/projects/tempcarlease/carlease/contracts/zeppelin/ownership/Ownable.sol",
     "exportedSymbols": {
       "Ownable": [
         456
@@ -526,7 +526,7 @@
     "src": "0:476:4"
   },
   "legacyAST": {
-    "absolutePath": "/home/sumit/projects/carlease/contracts/zeppelin/ownership/Ownable.sol",
+    "absolutePath": "/home/sumit/projects/tempcarlease/carlease/contracts/zeppelin/ownership/Ownable.sol",
     "exportedSymbols": {
       "Ownable": [
         456
@@ -1009,27 +1009,21 @@
     "version": "0.4.24+commit.e67f0147.Emscripten.clang"
   },
   "networks": {
-    "1556200316060": {
+    "1556208035053": {
       "events": {},
       "links": {},
-      "address": "0x0b7E2d17640a7DC5d77B9862187453fb95CB64A7",
-      "transactionHash": "0x3566db7e85a45e805df522311f398c526273b53ca1c0885abb0e743afda75901"
+      "address": "0xa19463401dcC13A817C8917fB4A6236f836Ec3a2",
+      "transactionHash": "0xc64a8c8530a83279d44484b6a42d07cd876a5d52098232f0fe1a57ef196b65f1"
     },
-    "1556200902639": {
+    "1556208581874": {
       "events": {},
       "links": {},
-      "address": "0x7697d53370805CA85a03F703843023933E382051",
-      "transactionHash": "0xa9ee72a96e469d39b727e370004e738ac73bf0913e53d09e231debf6de0e2788"
-    },
-    "1556200996938": {
-      "events": {},
-      "links": {},
-      "address": "0xa80b864173c0CFD9E8044caADacb8Fd7B0eAD2cC",
-      "transactionHash": "0xe8fa8e7ac9fd14485a0bc4f4bebb8e9c93479d65cdc63ac9672e89977b5e4fc2"
+      "address": "0xc333a1168C28593c134c6dcfaa9E9f07cEbD052d",
+      "transactionHash": "0x7d1d40c5660e15c09bc6f49a5bc92a0a138a48d96ed3ae8e692d2f730bf36615"
     }
   },
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-04-25T14:04:19.873Z",
+  "updatedAt": "2019-04-25T16:12:31.296Z",
   "devdoc": {
     "methods": {}
   },

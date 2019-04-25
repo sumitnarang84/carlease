@@ -40,7 +40,7 @@ ReactDOM.render((
           <Route path="profile" component={UserIsAuthenticated(Profile)} />
           <Route path="login" component={UserIsNotAuthenticated(Login)} />
           <Route path="logout" component={UserIsNotAuthenticated(Login)} />
-          <Route path="create-car" component={UserIsNotAuthenticated(Car)} />
+          <Route path="create-car" component={UserIsAuthenticated(Car)} />
         </Route>
       </Router>
     </Provider>
